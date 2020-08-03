@@ -58,7 +58,6 @@ class Owner
   end
   
   def sell_pets
-    #binding.pry
     self.cats.each do |cat|
       self.cats.delete(cat)
         cat.owner = nil
